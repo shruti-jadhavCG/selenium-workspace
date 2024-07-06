@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="true">
+	<test thread-count="5" name="Testing on Edge">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="basic.MavenProject.amazonScenario10Tc.testCase1" />
+			<class name="basic.MavenProject.amazonScenario10Tc.searchMobileTc2" />
+			<class name="basic.MavenProject.amazonScenario10Tc.searchMouseTc3" />
+			<class name="basic.MavenProject.amazonScenario10Tc.searchMobileCoverTc4" />
+			<class name="basic.MavenProject.amazonScenario10Tc.searchCameraTc5" />
+			<class name="basic.MavenProject.amazonScenario10Tc.electronicsMajorTabTc6" />
+			<class name="basic.MavenProject.amazonScenario10Tc.amazonFreshTc7" />
+		<!--	<class name="basic.MavenProject.amazonScenario10Tc.powerOfMindsTc8" /> -->
+			<class name="basic.MavenProject.amazonScenario10Tc.todaysDeal9" />
+			<class name="basic.MavenProject.amazonScenario10Tc.serachnGobackTc10" />
+
+		</classes>
+	</test> 
+	
+	<test thread-count="5" name="Testing on Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="basic.MavenProject.amazonScenario10Tc.testCase1" />
+			<class name="basic.MavenProject.amazonScenario10Tc.searchMobileTc2" />
+			<class name="basic.MavenProject.amazonScenario10Tc.searchMouseTc3" />
+			<class name="basic.MavenProject.amazonScenario10Tc.searchMobileCoverTc4" />
+			<class name="basic.MavenProject.amazonScenario10Tc.searchCameraTc5" />
+			<class name="basic.MavenProject.amazonScenario10Tc.electronicsMajorTabTc6" />
+			<class name="basic.MavenProject.amazonScenario10Tc.amazonFreshTc7" />
+		<!--	<class name="basic.MavenProject.amazonScenario10Tc.powerOfMindsTc8" /> -->
+			<class name="basic.MavenProject.amazonScenario10Tc.todaysDeal9" />
+			<class name="basic.MavenProject.amazonScenario10Tc.serachnGobackTc10" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Testing on Firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="basic.MavenProject.amazonScenario10Tc.testCase1" />
+			<class name="basic.MavenProject.amazonScenario10Tc.searchMobileTc2" />
+			<class name="basic.MavenProject.amazonScenario10Tc.searchMouseTc3" />
+			<class name="basic.MavenProject.amazonScenario10Tc.searchMobileCoverTc4" />
+			<class name="basic.MavenProject.amazonScenario10Tc.searchCameraTc5" />
+			<class name="basic.MavenProject.amazonScenario10Tc.electronicsMajorTabTc6" />
+			<class name="basic.MavenProject.amazonScenario10Tc.amazonFreshTc7" />
+		<!--	<class name="basic.MavenProject.amazonScenario10Tc.powerOfMindsTc8" /> -->
+			<class name="basic.MavenProject.amazonScenario10Tc.todaysDeal9" />
+			<class name="basic.MavenProject.amazonScenario10Tc.serachnGobackTc10" />
+		</classes>
+	</test>
+
+</suite> <!--
+Suite -->

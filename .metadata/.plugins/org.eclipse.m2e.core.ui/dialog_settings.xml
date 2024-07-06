@@ -25,13 +25,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="selenium.proj.MavenProject"/>
+			<item value="seleniumPrograms.TestngMavenProject"/>
 		</list>
 		<list key="groupId">
-			<item value="selenium.proj"/>
+			<item value="seleniumPrograms"/>
 		</list>
 		<list key="artifactId">
-			<item value="MavenProject"/>
+			<item value="TestngMavenProject"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -67,5 +67,7 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
 	</section>
 </section>
